@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pattaya Trip Itinerary</title>
+    <link rel="stylesheet" href="css/bangkok.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Pattaya Itinerary</h1>
+    </header>
+
+    <div class="navigation">
+      <button class="day-button active" onclick="showDay(1, this)">
+        Day 1 - Arrival & Nong Nooch Botanical Garden
+      </button>
+      <button class="day-button" onclick="showDay(2, this)">
+        Day 2 - Leisure & Exploration
+      </button>
+    </div>
+
+    <section id="day1" class="itinerary-section">
+      <h2>Day 1: Nov 21, 2024 – Arrival & Nong Nooch Botanical Garden</h2>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-bus-alt"></i> 12:00 PM – Check-out from Lareena
+          Resort, Koh Larn
+        </h3>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-ferry"></i> 1:00 PM – Ferry back to Pattaya</h3>
+        <ul>
+          <li><strong>Duration:</strong> ~30 minutes</li>
+          <li><strong>Cost:</strong> ~300 THB for two (round trip)</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-hotel"></i> 2:00 PM – Check-in at Balihai Bay
+          Residence
+        </h3>
+        <p>Relax and freshen up after your journey.</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-leaf"></i> 2:30 PM – Visit Nong Nooch Tropical
+          Botanical Garden
+        </h3>
+        <ul>
+          <li>Explore the beautiful gardens and cultural shows.</li>
+          <li><strong>Cost:</strong> ~600 THB for two (entrance fee)</li>
+          <li><strong>Duration:</strong> ~3 hours</li>
+          <li>
+            <strong>Transportation:</strong> Taxi or local transport from your
+            hotel
+          </li>
+          <li><strong>Travel Duration:</strong> ~30 minutes</li>
+          <li>
+            <strong>Alternative Transport:</strong> Rent a motorbike (if
+            comfortable) or use a ride-hailing app like Grab.
+          </li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-hotel"></i> 5:30 PM – Return to the hotel</h3>
+        <p><strong>Transportation:</strong> Taxi or local transport</p>
+        <p><strong>Duration:</strong> ~15 minutes</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-utensils"></i> 7:00 PM – Dinner at a local seafood
+          restaurant
+        </h3>
+        <p>Experience fresh seafood with ocean views.</p>
+        <p><strong>Cost:</strong> ~800 THB for two.</p>
+        <p><strong>Duration:</strong> ~1.5 hours</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-music"></i> 8:30 PM – Explore Walking Street</h3>
+        <p>Enjoy the vibrant nightlife, shops, and street performances.</p>
+        <p>
+          <strong>Cost:</strong> Free to explore (expenses vary based on
+          activities).
+        </p>
+        <p><strong>Duration:</strong> ~2 hours</p>
+      </div>
+
+      <div class="destination">
+        <h3>Table of Costs for Day 1</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Transportation</td>
+              <td>Ferry back to Pattaya</td>
+              <td>~300 THB</td>
+            </tr>
+            <tr>
+              <td>Activities</td>
+              <td>Nong Nooch Botanical Garden</td>
+              <td>~600 THB</td>
+            </tr>
+            <tr>
+              <td>Food</td>
+              <td>Dinner</td>
+              <td>~800 THB</td>
+            </tr>
+            <tr>
+              <td>Activities</td>
+              <td>Walking Street</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~1,700 THB</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="day2" class="itinerary-section" style="display: none">
+      <h2>Day 2: Nov 22, 2024 – Leisure & Exploration</h2>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-coffee"></i> 8:00 AM – Breakfast at Balihai Bay
+          Residence
+        </h3>
+        <p>Enjoy a hearty breakfast to start your day.</p>
+        <p><strong>Cost:</strong> ~300 THB for two.</p>
+        <p><strong>Duration:</strong> ~1 hour</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-buddha"></i> 9:00 AM – Visit Wat Phra Yai (Big
+          Buddha)
+        </h3>
+        <p><strong>Cost:</strong> Free (donations appreciated).</p>
+        <p><strong>Duration:</strong> ~1 hour</p>
+        <p>
+          <strong>Transportation:</strong> Taxi or local transport (~20 minutes
+          from hotel).
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-hotel"></i> 11:00 AM – Return to the hotel and
+          check-out
+        </h3>
+        <p>Prepare for your next destination.</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-utensils"></i> 12:30 PM – Enjoy lunch at a local
+          restaurant
+        </h3>
+        <p><strong>Cost:</strong> ~600 THB for two.</p>
+        <p><strong>Duration:</strong> ~1 hour</p>
+      </div>
+
+      <div class="destination">
+        <h3>Table of Costs for Day 2</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Food</td>
+              <td>Breakfast & Lunch</td>
+              <td>~900 THB</td>
+            </tr>
+            <tr>
+              <td>Activities</td>
+              <td>Big Buddha</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~900 THB</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <script>
+      function showDay(day, button) {
+        document.querySelectorAll(".itinerary-section").forEach((section) => {
+          section.style.display = "none";
+        });
+        document.getElementById(`day${day}`).style.display = "block";
+
+        document.querySelectorAll(".day-button").forEach((btn) => {
+          btn.classList.remove("active");
+        });
+        button.classList.add("active");
+      }
+    </script>
+  </body>
+</html>

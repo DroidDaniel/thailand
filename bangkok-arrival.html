@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thailand Trip Itinerary</title>
+    <link rel="stylesheet" href="css/bangkok.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Bangkok Itinerary</h1>
+    </header>
+
+    <div class="navigation">
+      <button class="day-button active" onclick="showDay(1, this)">
+        Day 1 - Bangkok
+      </button>
+      <button class="day-button" onclick="showDay(2, this)">
+        Day 2 - Bangkok
+      </button>
+    </div>
+
+    <section id="day1" class="itinerary-section">
+      <h2>Day 1: Nov 16, 2024 – Exploring Bangkok</h2>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-plane-arrival"></i> 4:00 AM – Arrival at DMK Airport
+        </h3>
+        <p>After immigration, head to D&D Inn, Khaosan Road.</p>
+        <ul>
+          <li><strong>Distance:</strong> ~30 km</li>
+          <li>
+            <strong>Transportation:</strong> Taxi (400-500 THB, 40-50 mins) or
+            Airport Bus A4 (50 THB/person, ~60 mins)
+          </li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-user-check"></i> Immigration and Visa Process</h3>
+        <p>
+          After landing, follow signs to the immigration area.
+          <strong>Time Required:</strong> Approximately 30-60 minutes.
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-sim-card"></i> Collecting a New SIM Card</h3>
+        <p>
+          You can book and collect your SIM card from vendors inside the DMK
+          Airport after clearing immigration.
+          <strong>Cost:</strong> Around 300-500 THB for a prepaid SIM.
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-bus"></i> Transportation to the City</h3>
+        <ul>
+          <li>
+            <strong>Location:</strong> A4 bus terminal is on the ground floor
+            outside arrivals.
+          </li>
+          <li><strong>Cost:</strong> 50 THB/person.</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-coffee"></i> 10:00 AM – Relax & Breakfast at Khaosan
+          Road
+        </h3>
+        <p>
+          Explore nearby street food stalls and cafes for breakfast (~200 THB
+          for two).
+        </p>
+        <h4>Alternative: Breakfast at 7-Eleven</h4>
+        <ul>
+          <li>
+            <strong>Location:</strong> 150 meters from your hotel (~2 min walk)
+          </li>
+          <li><strong>Cost for Two:</strong> ~120-160 THB</li>
+        </ul>
+        <p>Recommended items for a quick bite:</p>
+        <ul>
+          <li>Ham & Cheese Toasties – 25-30 THB</li>
+          <li>Rice Porridge (Jok) – 30-35 THB</li>
+          <li>Onigiri (Rice Balls) – 30-40 THB</li>
+          <li>Yogurt & Fruit Cups – 20-40 THB</li>
+          <li>Thai Iced Coffee or Milk Tea – 25-35 THB</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-landmark"></i> 12:00 PM – Grand Palace & Wat Phra
+          Kaew
+        </h3>
+        <ul>
+          <li>
+            <strong>Distance:</strong> ~2 km from your hotel (walkable, ~20
+            mins)
+          </li>
+          <li><strong>Entry Fee:</strong> 500 THB/person</li>
+          <li>Spend 2-3 hours exploring this iconic landmark.</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-utensils"></i> 3:00 PM – Lunch at a Local Thai
+          Restaurant
+        </h3>
+        <p>
+          To get to a nearby lunch spot, walk approximately 1 km (15 mins) from
+          the Grand Palace. A recommended option is:
+        </p>
+        <h4>Riverside Cafe</h4>
+        <ul>
+          <li><strong>Distance:</strong> ~1 km from Grand Palace</li>
+          <li><strong>Cost:</strong> ~400 THB for two.</li>
+        </ul>
+        <p>Recommended dishes:</p>
+        <ul>
+          <li>Pad Thai – 100-150 THB</li>
+          <li>Green Curry – 150-200 THB</li>
+          <li>Spring Rolls – 80-120 THB</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-clock"></i> 4:30 PM – Visit Wat Arun (Temple of Dawn)
+        </h3>
+        <ul>
+          <li>
+            <strong>Distance:</strong> Take a ferry from Tha Tien Pier (~5 mins,
+            4 THB).
+          </li>
+          <li><strong>Entry Fee:</strong> 100 THB/person</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-bed"></i> 6:00 PM – Evening Rest</h3>
+        <p>
+          To return to your hotel, take the ferry back to Tha Tien Pier and walk
+          ~2 km or take a tuk-tuk for 50 THB.
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-nightlife"></i> 8:00 PM – Nightlife at Khaosan Road
+        </h3>
+        <p>Explore bars, street food, and live music. Budget: 700-1,000 THB.</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-door-open"></i> 11:00 PM – Back to Hotel & Rest
+        </h3>
+      </div>
+
+      <!-- Table of Costs for Day 1 -->
+      <div class="destination">
+        <h3>Table of Costs for Day 1</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Food</td>
+              <td>Street food and local eateries</td>
+              <td>~400 THB</td>
+            </tr>
+            <tr>
+              <td>Transportation</td>
+              <td>Public buses, ferries, and shared taxis</td>
+              <td>~300 THB</td>
+            </tr>
+            <tr>
+              <td>Site Entry Fees</td>
+              <td>Grand Palace, Wat Arun</td>
+              <td>~600 THB</td>
+            </tr>
+            <tr>
+              <td>Nightlife and Extras</td>
+              <td>Basic drinks and small souvenirs</td>
+              <td>~500 THB</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple (Budget)</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~1,800 THB (~7,200 INR)</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="day2" class="itinerary-section" style="display: none">
+      <h2>
+        Day 2: Nov 17, 2024 – Half-Day in Bangkok & Travel to Jomtien Beach
+      </h2>
+
+      <div class="destination">
+        <h3><i class="fas fa-coffee"></i> 8:00 AM – Breakfast at the Hotel</h3>
+        <p>
+          Enjoy breakfast at D&D Inn or explore nearby cafes.<br />
+          <strong>Cost:</strong> ~150 THB for two.
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-mountain"></i> 9:30 AM – Visit Wat Saket (Golden
+          Mount)
+        </h3>
+        <ul>
+          <li>
+            <strong>Distance:</strong> ~1.5 km from your hotel (~20 mins walk)
+          </li>
+          <li><strong>Entry Fee:</strong> 50 THB/person</li>
+          <li><strong>Time:</strong> ~1 hour to explore</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-bicycle"></i> 12:00 PM – Return to Hotel & Check-out
+        </h3>
+        <p>
+          Check out from D&D Inn by 12 PM and head to the bus terminal for the
+          trip to Pattaya.
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-bus"></i> 12:30 PM – Travel to Ekkamai Bus Terminal
+        </h3>
+        <ul>
+          <li>
+            <strong>How to Get There:</strong> Take a BTS Skytrain from Khaosan
+            Road to Ekkamai Station (via Siam Station interchange).
+          </li>
+          <li><strong>Cost:</strong> ~45 THB/person</li>
+          <li><strong>Time:</strong> ~40 mins</li>
+          <li>
+            At Ekkamai Station, buy tickets for the next available bus to
+            Jomtien Beach.
+          </li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-bus-alt"></i> 1:30 PM – Bus to Jomtien Beach, Pattaya
+        </h3>
+        <ul>
+          <li><strong>Duration:</strong> ~2-2.5 hours</li>
+          <li>
+            <strong>Cost:</strong> ~150-250 THB/person (~300-500 THB for two)
+          </li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-bed"></i> 4:00 PM – Check-in at Happy Vikings
+          Beachfront
+        </h3>
+        <ul>
+          <li><strong>Address:</strong> Jomtien Beach, Pattaya</li>
+          <li>Relax at the hotel and enjoy beachfront views.</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-umbrella-beach"></i> 5:30 PM – Evening Stroll along
+          Jomtien Beach
+        </h3>
+        <p>
+          Walk along the beach, enjoy the sunset, and explore local street food
+          stalls.<br />
+          <strong>Cost:</strong> ~300 THB for snacks and drinks.
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-utensils"></i> 7:30 PM – Dinner at a Beachfront
+          Restaurant
+        </h3>
+        <ul>
+          <li>Enjoy seafood or Thai cuisine with ocean views.</li>
+          <li><strong>Cost:</strong> ~600-800 THB for two.</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-wine-glass-alt"></i> 9:00 PM – Explore Nightlife or
+          Relax
+        </h3>
+        <p>
+          Optionally explore nightlife spots around Jomtien Beach or head back
+          to the hotel for a relaxed evening.
+        </p>
+      </div>
+
+      <!-- Table of Costs for Day 2 -->
+      <div class="destination">
+        <h3>Table of Costs for Day 2</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Food</td>
+              <td>Breakfast & snacks</td>
+              <td>~150 THB</td>
+            </tr>
+            <tr>
+              <td>Site Entry Fees</td>
+              <td>Wat Saket (Golden Mount)</td>
+              <td>~100 THB</td>
+            </tr>
+            <tr>
+              <td>Transportation</td>
+              <td>Skytrain & Bus</td>
+              <td>~550 THB (for two)</td>
+            </tr>
+            <tr>
+              <td>Food & Drinks</td>
+              <td>Dinner at Jomtien Beach</td>
+              <td>~800 THB</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple (Budget)</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~1,600 THB (~6,400 INR)</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <script>
+      function showDay(day, element) {
+        // Toggle the visibility of content based on the selected day
+        document.getElementById("day1").style.display =
+          day === 1 ? "block" : "none";
+        document.getElementById("day2").style.display =
+          day === 2 ? "block" : "none";
+
+        // Remove 'active' class from all buttons
+        const buttons = document.querySelectorAll(".day-button");
+        buttons.forEach((button) => button.classList.remove("active"));
+
+        // Add 'active' class to the clicked button
+        element.classList.add("active");
+      }
+    </script>
+  </body>
+</html>

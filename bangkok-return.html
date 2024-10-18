@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bangkok Itinerary</title>
+    <link rel="stylesheet" href="css/bangkok.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Bangkok Itinerary</h1>
+    </header>
+
+    <div class="navigation">
+      <button class="day-button active" onclick="showDay(1, this)">
+        Day 1 - Arrival & Check-in
+      </button>
+      <button class="day-button" onclick="showDay(2, this)">
+        Day 2 - Exploring Bangkok
+      </button>
+      <button class="day-button" onclick="showDay(3, this)">
+        Day 3 - Departure
+      </button>
+    </div>
+
+    <section id="day1" class="itinerary-section">
+      <h2>Day 1: Nov 22, 2024 – Arrival & Check-in</h2>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-hotel"></i> 2:00 PM – Check-in at Prince Palace Hotel
+        </h3>
+        <p>Address: 388/1 Ratchawithi Rd, Dusit, Bangkok.</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-utensils"></i> 12:30 PM – Lunch Nearby</h3>
+        <p>Enjoy lunch at a nearby restaurant.</p>
+        <p><strong>Cost:</strong> ~200-300 THB for two.</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-shopping-basket"></i> 3:30 PM – Chatuchak Weekend
+          Market
+        </h3>
+        <p>Explore this famous market for shopping and local snacks.</p>
+        <p><strong>Duration:</strong> ~2-3 hours.</p>
+        <p><strong>Cost:</strong> Free to enter (shopping cost varies).</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-building"></i> 6:00 PM – Wat Benchamabophit (Marble
+          Temple)
+        </h3>
+        <p>Visit one of Bangkok's most beautiful temples.</p>
+        <p><strong>Duration:</strong> ~1 hour.</p>
+        <p><strong>Cost:</strong> ~50 THB per person.</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-bus-alt"></i> 7:30 PM – Return to Hotel</h3>
+        <p>Take a taxi back to the Prince Palace Hotel.</p>
+        <p><strong>Cost:</strong> ~100-150 THB.</p>
+      </div>
+
+      <div class="destination">
+        <h3>Table of Costs for Day 1</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Food</td>
+              <td>Lunch</td>
+              <td>~300 THB</td>
+            </tr>
+            <tr>
+              <td>Temple Entry</td>
+              <td>Wat Benchamabophit</td>
+              <td>~100 THB</td>
+            </tr>
+            <tr>
+              <td>Transportation</td>
+              <td>Taxi back to Hotel</td>
+              <td>~150 THB</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~550 THB</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="day2" class="itinerary-section" style="display: none">
+      <h2>Day 2: Nov 23, 2024 – Exploring Bangkok</h2>
+
+      <div class="destination">
+        <h3><i class="fas fa-coffee"></i> 8:00 AM – Breakfast at Hotel</h3>
+        <p>Enjoy breakfast at Prince Palace Hotel.</p>
+        <p><strong>Cost:</strong> ~300 THB for two.</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-basket-shopping"></i> 10:00 AM – Pak Khlong Talat
+          (Flower Market)
+        </h3>
+        <p>Visit the vibrant flower market to see a variety of flowers.</p>
+        <p><strong>Duration:</strong> ~1-2 hours.</p>
+        <p><strong>Cost:</strong> Free to enter (shopping cost varies).</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-warehouse"></i> 12:00 PM – Talad Rom Hub</h3>
+        <p>
+          Experience this unique market with various local foods and souvenirs.
+        </p>
+        <p><strong>Duration:</strong> ~2 hours.</p>
+        <p><strong>Cost:</strong> Free to enter (shopping cost varies).</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-church"></i> 2:30 PM – Assumption Cathedral</h3>
+        <p>Visit this beautiful cathedral known for its architecture.</p>
+        <p><strong>Duration:</strong> ~1 hour.</p>
+        <p><strong>Cost:</strong> Free to enter.</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-bus-alt"></i> 4:00 PM – Return to Hotel</h3>
+        <p>Take a taxi back to Prince Palace Hotel.</p>
+        <p><strong>Cost:</strong> ~100-150 THB.</p>
+      </div>
+
+      <div class="destination">
+        <h3>Table of Costs for Day 2</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Food</td>
+              <td>Breakfast</td>
+              <td>~300 THB</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~300 THB</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="day3" class="itinerary-section" style="display: none">
+      <h2>Day 3: Nov 24, 2024 – Departure</h2>
+
+      <div class="destination">
+        <h3><i class="fas fa-coffee"></i> 8:00 AM – Breakfast at Hotel</h3>
+        <p>Enjoy breakfast at Prince Palace Hotel.</p>
+        <p><strong>Cost:</strong> ~300 THB for two.</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-bus-alt"></i> 10:00 AM – Last-Minute Shopping</h3>
+        <p>Explore nearby shopping areas or relax at the hotel.</p>
+        <p><strong>Duration:</strong> ~2 hours.</p>
+        <p><strong>Cost:</strong> Free (shopping cost varies).</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-utensils"></i> 12:30 PM – Lunch Nearby</h3>
+        <p>Enjoy lunch at a nearby restaurant.</p>
+        <p><strong>Cost:</strong> ~200-300 THB for two.</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-bus-alt"></i> 6:30 PM – Depart for DMK Airport</h3>
+        <p>Take a taxi or shuttle to DMK Airport for your flight.</p>
+        <p>
+          <strong>Cost:</strong> ~200-300 THB for taxi (or check for shuttle
+          services).
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3>Table of Costs for Day 3</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Food</td>
+              <td>Breakfast</td>
+              <td>~300 THB</td>
+            </tr>
+            <tr>
+              <td>Food</td>
+              <td>Lunch</td>
+              <td>~300 THB</td>
+            </tr>
+            <tr>
+              <td>Transportation</td>
+              <td>Taxi to Airport</td>
+              <td>~300 THB</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~900 THB</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <p>Have a wonderful trip!</p>
+    </footer>
+
+    <script>
+      function showDay(day, button) {
+        $(".itinerary-section").hide();
+        $("#day" + day).show();
+        $(".day-button").removeClass("active");
+        $(button).addClass("active");
+      }
+      $(document).ready(function () {
+        showDay(1, $(".day-button")[0]);
+      });
+    </script>
+  </body>
+</html>

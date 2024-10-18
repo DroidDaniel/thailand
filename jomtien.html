@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pattaya Trip Itinerary</title>
+    <link rel="stylesheet" href="css/bangkok.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Pattaya Itinerary</h1>
+    </header>
+
+    <div class="navigation">
+      <button class="day-button active" onclick="showDay(1, this)">
+        Day 1 - Arrival & Exploration
+      </button>
+      <button class="day-button" onclick="showDay(2, this)">
+        Day 2 - Full Day of Attractions
+      </button>
+    </div>
+
+    <section id="day1" class="itinerary-section" style="display: block">
+      <h2>Day 1: Nov 17, 2024 – Arrival & Exploration</h2>
+
+      <div class="destination">
+        <h3><i class="fas fa-bus-alt"></i> 12:30 PM – Bus to Jomtien Beach</h3>
+        <ul>
+          <li><strong>Duration:</strong> ~2-2.5 hours</li>
+          <li><strong>Cost:</strong> ~300-500 THB for two</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-hotel"></i> 3:00 PM – Check-in at Happy Vikings
+          Beachfront
+        </h3>
+        <ul>
+          <li><strong>Address:</strong> Jomtien Beach, Pattaya</li>
+          <li>Enjoy beachfront views and relax after check-in.</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-archway"></i> 4:30 PM – Visit Sanctuary of Truth
+        </h3>
+        <ul>
+          <li><strong>Duration:</strong> ~1.5-2 hours</li>
+          <li><strong>Cost:</strong> ~1,000 THB for two</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-utensils"></i> 7:00 PM – Dinner at a Beachfront
+          Restaurant
+        </h3>
+        <ul>
+          <li>Enjoy fresh seafood or Thai cuisine with ocean views.</li>
+          <li><strong>Cost:</strong> ~600-800 THB for two.</li>
+        </ul>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-moon"></i> 9:00 PM – Optional Nightlife Exploration
+        </h3>
+        <p>
+          Explore local bars or head back to the hotel for a relaxing night.
+        </p>
+      </div>
+
+      <div class="destination">
+        <h3>Table of Costs for Day 1</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Transportation</td>
+              <td>Bus to Jomtien Beach</td>
+              <td>~500 THB</td>
+            </tr>
+            <tr>
+              <td>Entry Fee</td>
+              <td>Sanctuary of Truth</td>
+              <td>~1,000 THB</td>
+            </tr>
+            <tr>
+              <td>Food & Drinks</td>
+              <td>Dinner</td>
+              <td>~800 THB</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~2,300 THB</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="day2" class="itinerary-section" style="display: none">
+      <h2>Day 2: Nov 18, 2024 – Full Day of Attractions</h2>
+
+      <div class="destination">
+        <h3><i class="fas fa-coffee"></i> 8:00 AM – Breakfast at the Hotel</h3>
+        <p>Enjoy breakfast at Happy Vikings Beachfront.</p>
+        <p><strong>Cost:</strong> ~300 THB for two.</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-paint-brush"></i> 9:30 AM – Visit Art in Paradise
+        </h3>
+        <p><strong>Duration:</strong> ~2 hours</p>
+        <p><strong>Cost:</strong> ~600 THB for two.</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-temple"></i> 12:00 PM – Visit Wat Phra Yai (Big
+          Buddha)
+        </h3>
+        <p><strong>Duration:</strong> ~1 hour</p>
+        <p><strong>Cost:</strong> Free (donations appreciated).</p>
+      </div>
+
+      <div class="destination">
+        <h3>
+          <i class="fas fa-utensils"></i> 1:30 PM – Lunch at a Local Restaurant
+        </h3>
+        <p>Enjoy a light lunch nearby.</p>
+        <p><strong>Cost:</strong> ~500 THB for two.</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-globe"></i> 3:00 PM – Visit Mini Siam</h3>
+        <p><strong>Duration:</strong> ~1.5-2 hours</p>
+        <p><strong>Cost:</strong> ~600 THB for two.</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-tiger"></i> 5:30 PM – Visit Tiger Park Pattaya</h3>
+        <p><strong>Duration:</strong> ~1.5 hours</p>
+        <p><strong>Cost:</strong> ~1,500 THB for two (including photo fees).</p>
+      </div>
+
+      <div class="destination">
+        <h3><i class="fas fa-bed"></i> 7:30 PM – Return to Hotel & Relax</h3>
+        <p>Enjoy the beachfront view and relax after a busy day.</p>
+      </div>
+
+      <div class="destination">
+        <h3>Table of Costs for Day 2</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+              <th>Cost (THB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Food</td>
+              <td>Breakfast & Lunch</td>
+              <td>~800 THB</td>
+            </tr>
+            <tr>
+              <td>Entry Fee</td>
+              <td>Art in Paradise</td>
+              <td>~600 THB</td>
+            </tr>
+            <tr>
+              <td>Entry Fee</td>
+              <td>Wat Phra Yai</td>
+              <td>Free</td>
+            </tr>
+            <tr>
+              <td>Entry Fee</td>
+              <td>Mini Siam</td>
+              <td>~600 THB</td>
+            </tr>
+            <tr>
+              <td>Entry Fee</td>
+              <td>Tiger Park</td>
+              <td>~1,500 THB</td>
+            </tr>
+            <tr>
+              <td><strong>Total Cost for Couple</strong></td>
+              <td>Sum of all categories</td>
+              <td><strong>~3,500 THB</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <script>
+      function showDay(day, btn) {
+        const sections = document.querySelectorAll(".itinerary-section");
+        sections.forEach((section) => {
+          section.style.display = "none";
+        });
+        document.getElementById(`day${day}`).style.display = "block";
+
+        const buttons = document.querySelectorAll(".day-button");
+        buttons.forEach((button) => {
+          button.classList.remove("active");
+        });
+        btn.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
