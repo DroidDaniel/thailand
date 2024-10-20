@@ -5,38 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thailand Itinerary</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Thailand Itinerary</h1>
-    </header>
+    <section id="itinerary">
+      <!-- Itinerary section hidden by default -->
+      <header>
+        <h1>Thailand Itinerary</h1>
+      </header>
 
-    <section id="days">
-      <button class="day-button" data-link="bangkok-arrival.html">
-        <i class="fas fa-city"></i> Bangkok
-      </button>
-      <button class="day-button" data-link="jomtien.html">
-        <i class="fas fa-umbrella-beach"></i> Pattaya, Jomtien Beach
-      </button>
-      <button class="day-button" data-link="kohlarn.html">
-        <i class="fas fa-water"></i> Koh Larn Island
-      </button>
-      <button class="day-button" data-link="pattaya-return.html">
-        <i class="fas fa-arrow-left"></i> Return to Pattaya
-      </button>
-      <button class="day-button" data-link="bangkok-return.html">
-        <i class="fas fa-plane-departure"></i> Bangkok & Departure
-      </button>
+      <section id="days">
+        <button class="day-button" data-link="bangkok-arrival.html">
+          <i class="fas fa-city"></i> Bangkok
+        </button>
+        <button class="day-button" data-link="jomtien.html">
+          <i class="fas fa-umbrella-beach"></i> Pattaya, Jomtien Beach
+        </button>
+        <button class="day-button" data-link="kohlarn.html">
+          <i class="fas fa-water"></i> Koh Larn Island
+        </button>
+        <button class="day-button" data-link="pattaya-return.html">
+          <i class="fas fa-arrow-left"></i> Return to Pattaya
+        </button>
+        <button class="day-button" data-link="bangkok-return.html">
+          <i class="fas fa-plane-departure"></i> Bangkok & Departure
+        </button>
+      </section>
     </section>
 
     <footer>
-      <p>&copy; <strong>Source: Neeraj</strong> Developed by Danny</p>
+      <p>
+        &copy; source:
+        <span class="source_icon"><i class="fas fa-file"></i></span>
+        Neeraj, Developed
+        <span class="dev_icon"><i class="fas fa-flask"></i></span> by Danny
+      </p>
     </footer>
 
     <script src="js/script.js"></script>

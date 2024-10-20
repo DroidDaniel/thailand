@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", serif;
     background-color: #f8f9fa;
     margin: 0;
     padding: 20px;
@@ -25,6 +25,7 @@ body {
   }
   
   .day-button {
+    font-family: "Poppins", serif;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -49,3 +50,64 @@ body {
     color: #666;
   }
   
+
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Full height */
+  }
+
+  .login-form {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5a0cae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .login-form button:hover {
+    background-color: #5a298f;
+  }
+
+
+  .source_icon,
+.dev_icon {
+    display: inline-block;
+    color: #C3B1E1;
+    animation: rotate 2s infinite alternate;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(15deg); /* Adjust the angle for the rotation */
+    }
+}
